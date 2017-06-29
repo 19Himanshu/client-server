@@ -11,6 +11,9 @@
 #include <arpa/inet.h>
 #include <netdb.h>
 
+#include <unistd.h> // CPP needs this to understande close()
+
+
 #define PORT 20000
 #define LENGTH 512 
 

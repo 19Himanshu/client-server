@@ -1,0 +1,14 @@
+/Users/byte/Dropbox/software/client-server/build/CMakeFiles/install/local.dir
+/Users/byte/Dropbox/software/client-server/build/CMakeFiles/install/strip.dir
+/Users/byte/Dropbox/software/client-server/build/CMakeFiles/install.dir
+/Users/byte/Dropbox/software/client-server/build/CMakeFiles/list_install_components.dir
+/Users/byte/Dropbox/software/client-server/build/CMakeFiles/rebuild_cache.dir
+/Users/byte/Dropbox/software/client-server/build/CMakeFiles/edit_cache.dir
+/Users/byte/Dropbox/software/client-server/build/clisrv/CMakeFiles/install/local.dir
+/Users/byte/Dropbox/software/client-server/build/clisrv/CMakeFiles/install/strip.dir
+/Users/byte/Dropbox/software/client-server/build/clisrv/CMakeFiles/install.dir
+/Users/byte/Dropbox/software/client-server/build/clisrv/CMakeFiles/srv.dir
+/Users/byte/Dropbox/software/client-server/build/clisrv/CMakeFiles/list_install_components.dir
+/Users/byte/Dropbox/software/client-server/build/clisrv/CMakeFiles/cli.dir
+/Users/byte/Dropbox/software/client-server/build/clisrv/CMakeFiles/rebuild_cache.dir
+/Users/byte/Dropbox/software/client-server/build/clisrv/CMakeFiles/edit_cache.dir

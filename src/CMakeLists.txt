@@ -12,7 +12,7 @@ project(GEN C CXX)
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake")
 # I'm going to put all my own code (e.g. *.cpp, *.hpp, etc.) in the following directory("ies")
 set(SUBDIRS
-    client-server
+    clisrv
     )
 
 set(CMAKE_INSTALL_RPATH_USE_LINK_PATH true)

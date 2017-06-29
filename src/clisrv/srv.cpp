@@ -11,6 +11,8 @@
 #include <arpa/inet.h>
 #include <netdb.h>
 
+#include <unistd.h> // CPP needs this to understande close()
+
 #define PORT 20000 
 #define BACKLOG 5
 #define LENGTH 512 
@@ -68,10 +70,11 @@ int main ()
 	int success = 0;
 	while(success == 0)
 	{
-		sin_size = sizeof(struct sockaddr_in);
+		// sin_size = sizeof(struct sockaddr_in);
+		u_int sin_size = sizeof(struct sockaddr_in); 
 
 		/* Wait a connection, and obtain a new socket file despriptor for single connection */
-		if ((nsockfd = accept(sockfd, (struct sockaddr *)&addr_remote, &sin_size)) == -1) 
+		if ((nsockfd = ::accept(sockfd, (struct sockaddr *)&addr_remote, &sin_size)) == -1) 
 		{
 		    fprintf(stderr, "ERROR: Obtaining new Socket Despcritor. (errno = %d)\n", errno);
 			exit(1);
