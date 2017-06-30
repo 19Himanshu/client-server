@@ -28,14 +28,6 @@ Run:
 
 ### Command-Line Stuff ###
 
-Can run the client and server executable in any number of ways.  From the `client-server/` directory
-	```
-	./build/clisrv/cli
-	```
-and
+Can run the client and server executable in any number of ways.  From the `client-server/` directory `./build/clisrv/cli` and `./build/clisrv/srv`
 
-	```
-	./build/clisrv/srv
-	```
 
-	
