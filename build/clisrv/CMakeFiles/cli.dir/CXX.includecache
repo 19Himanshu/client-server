@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/byte/Dropbox/software/client-server/src/clisrv/cli.cpp
+/Users/byte/software/client-server/src/clisrv/cli.cpp
 stdlib.h
 -
 stdio.h

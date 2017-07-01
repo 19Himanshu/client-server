@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.8.2/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/byte/Dropbox/software/client-server/src
+CMAKE_SOURCE_DIR = /Users/byte/software/client-server/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/byte/Dropbox/software/client-server/build
+CMAKE_BINARY_DIR = /Users/byte/software/client-server/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/byte/Dropbox/software/client-server/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/byte/Dropbox/software/client-server/build/CMakeFiles /Users/byte/Dropbox/software/client-server/build/clisrv/CMakeFiles/progress.marks
-	cd /Users/byte/Dropbox/software/client-server/build && $(MAKE) -f CMakeFiles/Makefile2 clisrv/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/byte/Dropbox/software/client-server/build/CMakeFiles 0
+	cd /Users/byte/software/client-server/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/byte/software/client-server/build/CMakeFiles /Users/byte/software/client-server/build/clisrv/CMakeFiles/progress.marks
+	cd /Users/byte/software/client-server/build && $(MAKE) -f CMakeFiles/Makefile2 clisrv/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/byte/software/client-server/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/byte/Dropbox/software/client-server/build && $(MAKE) -f CMakeFiles/Makefile2 clisrv/clean
+	cd /Users/byte/software/client-server/build && $(MAKE) -f CMakeFiles/Makefile2 clisrv/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/byte/Dropbox/software/client-server/build && $(MAKE) -f CMakeFiles/Makefile2 clisrv/preinstall
+	cd /Users/byte/software/client-server/build && $(MAKE) -f CMakeFiles/Makefile2 clisrv/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/byte/Dropbox/software/client-server/build && $(MAKE) -f CMakeFiles/Makefile2 clisrv/preinstall
+	cd /Users/byte/software/client-server/build && $(MAKE) -f CMakeFiles/Makefile2 clisrv/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/byte/Dropbox/software/client-server/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/byte/software/client-server/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 clisrv/CMakeFiles/srv.dir/rule:
-	cd /Users/byte/Dropbox/software/client-server/build && $(MAKE) -f CMakeFiles/Makefile2 clisrv/CMakeFiles/srv.dir/rule
+	cd /Users/byte/software/client-server/build && $(MAKE) -f CMakeFiles/Makefile2 clisrv/CMakeFiles/srv.dir/rule
 .PHONY : clisrv/CMakeFiles/srv.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ srv: clisrv/CMakeFiles/srv.dir/rule
 
 # fast build rule for target.
 srv/fast:
-	cd /Users/byte/Dropbox/software/client-server/build && $(MAKE) -f clisrv/CMakeFiles/srv.dir/build.make clisrv/CMakeFiles/srv.dir/build
+	cd /Users/byte/software/client-server/build && $(MAKE) -f clisrv/CMakeFiles/srv.dir/build.make clisrv/CMakeFiles/srv.dir/build
 .PHONY : srv/fast
 
 # Convenience name for target.
 clisrv/CMakeFiles/cli.dir/rule:
-	cd /Users/byte/Dropbox/software/client-server/build && $(MAKE) -f CMakeFiles/Makefile2 clisrv/CMakeFiles/cli.dir/rule
+	cd /Users/byte/software/client-server/build && $(MAKE) -f CMakeFiles/Makefile2 clisrv/CMakeFiles/cli.dir/rule
 .PHONY : clisrv/CMakeFiles/cli.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ cli: clisrv/CMakeFiles/cli.dir/rule
 
 # fast build rule for target.
 cli/fast:
-	cd /Users/byte/Dropbox/software/client-server/build && $(MAKE) -f clisrv/CMakeFiles/cli.dir/build.make clisrv/CMakeFiles/cli.dir/build
+	cd /Users/byte/software/client-server/build && $(MAKE) -f clisrv/CMakeFiles/cli.dir/build.make clisrv/CMakeFiles/cli.dir/build
 .PHONY : cli/fast
 
 cli.o: cli.cpp.o
@@ -192,7 +192,7 @@ cli.o: cli.cpp.o
 
 # target to build an object file
 cli.cpp.o:
-	cd /Users/byte/Dropbox/software/client-server/build && $(MAKE) -f clisrv/CMakeFiles/cli.dir/build.make clisrv/CMakeFiles/cli.dir/cli.cpp.o
+	cd /Users/byte/software/client-server/build && $(MAKE) -f clisrv/CMakeFiles/cli.dir/build.make clisrv/CMakeFiles/cli.dir/cli.cpp.o
 .PHONY : cli.cpp.o
 
 cli.i: cli.cpp.i
@@ -201,7 +201,7 @@ cli.i: cli.cpp.i
 
 # target to preprocess a source file
 cli.cpp.i:
-	cd /Users/byte/Dropbox/software/client-server/build && $(MAKE) -f clisrv/CMakeFiles/cli.dir/build.make clisrv/CMakeFiles/cli.dir/cli.cpp.i
+	cd /Users/byte/software/client-server/build && $(MAKE) -f clisrv/CMakeFiles/cli.dir/build.make clisrv/CMakeFiles/cli.dir/cli.cpp.i
 .PHONY : cli.cpp.i
 
 cli.s: cli.cpp.s
@@ -210,7 +210,7 @@ cli.s: cli.cpp.s
 
 # target to generate assembly for a file
 cli.cpp.s:
-	cd /Users/byte/Dropbox/software/client-server/build && $(MAKE) -f clisrv/CMakeFiles/cli.dir/build.make clisrv/CMakeFiles/cli.dir/cli.cpp.s
+	cd /Users/byte/software/client-server/build && $(MAKE) -f clisrv/CMakeFiles/cli.dir/build.make clisrv/CMakeFiles/cli.dir/cli.cpp.s
 .PHONY : cli.cpp.s
 
 srv.o: srv.cpp.o
@@ -219,7 +219,7 @@ srv.o: srv.cpp.o
 
 # target to build an object file
 srv.cpp.o:
-	cd /Users/byte/Dropbox/software/client-server/build && $(MAKE) -f clisrv/CMakeFiles/srv.dir/build.make clisrv/CMakeFiles/srv.dir/srv.cpp.o
+	cd /Users/byte/software/client-server/build && $(MAKE) -f clisrv/CMakeFiles/srv.dir/build.make clisrv/CMakeFiles/srv.dir/srv.cpp.o
 .PHONY : srv.cpp.o
 
 srv.i: srv.cpp.i
@@ -228,7 +228,7 @@ srv.i: srv.cpp.i
 
 # target to preprocess a source file
 srv.cpp.i:
-	cd /Users/byte/Dropbox/software/client-server/build && $(MAKE) -f clisrv/CMakeFiles/srv.dir/build.make clisrv/CMakeFiles/srv.dir/srv.cpp.i
+	cd /Users/byte/software/client-server/build && $(MAKE) -f clisrv/CMakeFiles/srv.dir/build.make clisrv/CMakeFiles/srv.dir/srv.cpp.i
 .PHONY : srv.cpp.i
 
 srv.s: srv.cpp.s
@@ -237,7 +237,7 @@ srv.s: srv.cpp.s
 
 # target to generate assembly for a file
 srv.cpp.s:
-	cd /Users/byte/Dropbox/software/client-server/build && $(MAKE) -f clisrv/CMakeFiles/srv.dir/build.make clisrv/CMakeFiles/srv.dir/srv.cpp.s
+	cd /Users/byte/software/client-server/build && $(MAKE) -f clisrv/CMakeFiles/srv.dir/build.make clisrv/CMakeFiles/srv.dir/srv.cpp.s
 .PHONY : srv.cpp.s
 
 # Help Target
@@ -271,6 +271,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/byte/Dropbox/software/client-server/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/byte/software/client-server/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

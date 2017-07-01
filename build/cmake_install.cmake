@@ -1,4 +1,4 @@
-# Install script for directory: /Users/byte/Dropbox/software/client-server/src
+# Install script for directory: /Users/byte/software/client-server/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/byte/Dropbox/software/client-server/build/clisrv/cmake_install.cmake")
+  include("/Users/byte/software/client-server/build/clisrv/cmake_install.cmake")
 
 endif()
 
@@ -41,5 +41,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/byte/Dropbox/software/client-server/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/byte/software/client-server/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
