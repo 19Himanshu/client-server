@@ -1,5 +1,5 @@
 # client-server
-Transferring files between client and server.  Converted to C++ (only a couple of lines needed changing to start) and merged with CMake-based build system. As tersely implied below the source files are in the `src` directory.  You create a directory where you want to build your executable (e.g. make a directory called `build`) and hopefully the remainder is clear.
+Transferring files between client and server
 
 Requirements:
 -------------------
