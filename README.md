@@ -1,7 +1,7 @@
 # client-server
 
 Transferring files between client and server
-Build:
+#Build:
 -------------------
 1. Clone the client and server software
 	```
